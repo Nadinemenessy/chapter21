@@ -56,7 +56,7 @@ public:
     bool operator()(const Item& x) const { return x.name == name; }
 };
 
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
 // 7. Erase by iid
 class Cmp_by_iid {
     int iid;
